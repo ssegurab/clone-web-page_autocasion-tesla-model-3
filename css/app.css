@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Open Sans,Trebuchet,Helvetica,sans-serif;
+}
+
+/* navbar */
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color:darkred;
+    border: white;
+}
+
+.btn-danger{
+    border-radius: inherit;
+    font-size: 1rem;
+    height: 3.5rem;
+}
+
+.btn-danger:hover{
+    color: darkred;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.favorites__icon{
+    color: #757575;
+    margin-left: 0.5rem;
+}
+.favorites__icon:hover{
+    color: black;
+}
+
+.user__icon{
+    color: #757575;
+    margin-left: 3rem;
+}
+.user__icon:hover{
+    color: black;
+}
+/* end__navbar */
+
+.container{
+    display: flex;
+}
+
+/* breadcrumb */
+.breadcrumb{
+    padding-top: 1rem;
+}
+
+.breadcrumb-item a{
+    color: #0269ae;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+/* end__breadcrumb */
+
+/* web__title */
+.container__title{   
+    margin-bottom: 1.5rem;
+}
+.title__car{
+    font-size: 2.5rem;
+}
+/* end__web__title */
+
+/* slider__box */
+.principal__slider{
+    display: block;
+    width: 100%;
+}
+
+.slider__cover{
+    display: block;
+    width: 100%;
+}
+
+.cover__img{
+    width: 100%;
+}
+
+.slider__miniatures{
+    margin-top: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.link__mini {
+    width: 122px;
+}
+
+.miniatures__group{
+    background-color: #4a4a4a;
+    color: white;
+    text-decoration: none;
+    padding: 31px 85px;
+    display: block;
+    float: right;
+    margin-left: 5px;
+}
+/* end__slider__box */
+
+.slider__text{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.slider__info{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+.info__list{
+    float: left;
+    width: 290px;
+}
+
+.list__span{
+    font-weight: bold;
+}
+
+.technical{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.module__tabs{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.module__tabs li a{
+    text-decoration: none;
+    color: black;
+}
+
+.tabs__bodywork{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.tabs__motor{
+    border-bottom: 1px solid black;
+}
+
+.tabs__transmission{
+    border-bottom: 1px solid black;
+}
+
+.tabs__performance{
+    border-bottom: 1px solid black;
+}
+
+.tabs__efficiency{
+    border-bottom: 1px solid black;
+}
+
+.empty{
+    border-bottom: 1px solid black;
+}
+
+.content__bodywork {
+   /*  border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    width: 100%;
+}
+
+.content__bodywork li{
+    /* border: 1px solid green; */
+    list-style: none;
+    font-size: 1rem;
+}
+
+.bodywork__li{
+    text-decoration: none;
+    width: 50%;
+}
+
+.li__measures{
+    font-size: 1.2rem;
+}
+
+.li__length{
+    position: relative;
+    border-top: 1px dotted #ccc;
+    width: 7.3rem;
+    right: 12.7rem;
+    top: 3rem;
+}
+
+.li__width{
+    border-top: 1px dotted #ccc;
+    display: flex;
+    width: 7.7rem;
+    margin-top: 0.6rem;
+    margin-left: 8.5rem;
+}
+
+.li__high{
+    position: relative;
+    top: -4.3rem;
+    left: 13.5rem;
+    border-left: 1px dotted #ccc;
+    padding-left: 0.5rem;
+}
+
+.li__bodywork{
+    font-weight: bold;
+    margin-left: 14rem;
+}
+
+.bodiwork__li--weight{
+    position: relative;
+    top: -16rem;
+}
+
+.li__weight{
+    font-weight: bold;
+    margin-left: 4.5rem;
+}
+
+.bodywork__li--batalla{
+    padding-top: 2rem;
+}
+
+.li__batalla{
+    font-weight: bold;
+    margin-left: 12rem;
+}
+
+.bodywork__li--large{
+    padding-top: 2rem;
+}
+
+.li__large{
+    font-weight: bold;
+    margin-left: 11rem;
+}
+
+.bodywork__li--doors{
+    padding-top: 3.3rem;
+}
+
+.li__doors{
+    font-weight: bold;
+    margin-left: 9.7rem;
+}
+
+.bodywork__li--seats{
+    padding-top: 3.3rem;
+}
+
+.li__seats{
+    font-weight: bold;
+    margin-left: 11.8rem;
+}
+
+.bodywork__li--trunk{
+    padding-top: 3.3rem;
+}
+
+.li__trunk{
+    font-weight: bold;
+    margin-left: 6.8rem;
+}
+
+.bodywork__li--trunkmax{
+    padding-top: 3.3rem;
+}
+
+.li__trunkmax{
+    font-weight: bold;
+    margin-left: 4.3rem;
+}
+
+/* CONTACT FORM */
+.module__contact{
+    border: 1px solid lightgray;
+    width: 27rem;
+    height: 43rem;
+    margin-left: 3rem;
+    padding: 3.5rem;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.right__module{
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.required{
+    color: red;
+    font-weight: bold;
+}
+
+.contact__phone{
+    color: #0269ae;
+    font-weight: bold;
+}
+
+.form__email--label{
+    margin-bottom: 0.6rem;
+}
+
+.form__email--input{
+    margin-bottom: 1rem;
+}
+
+.form__name--label{
+    margin-bottom: 0.6rem;
+}
+.form__name--input{
+    margin-bottom: 1rem;
+}
+
+.form__phone--label{
+    margin-bottom: 0.6rem;
+}
+.form__phone--input{
+    margin-bottom: 1rem;
+}
+
+.form__postal--label{
+    margin-bottom: 0.6rem;
+
+}
+.form__postal--input{
+    margin-bottom: 1rem;
+}
+
+.form__select--label{
+    margin-bottom: 0.6rem;
+}
+
+.privacity{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.btn-primary{
+    width: 20rem;
+}
+/* END CONTACT FORM */
