@@ -8,7 +8,7 @@ body{
     font-family: Open Sans,Trebuchet,Helvetica,sans-serif;
 }
 
-/* navbar */
+/* ---------- navbar ---------- */
 .nav-link{
     color: white;
     text-decoration: none;
@@ -47,15 +47,16 @@ body{
 .user__icon:hover{
     color: black;
 }
-/* end__navbar */
+/* ---------- end navbar ---------- */
 
 .container{
     display: flex;
 }
 
-/* breadcrumb */
+/* ---------- breadcrumb ---------- */
 .breadcrumb{
     padding-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .breadcrumb-item a{
@@ -63,19 +64,120 @@ body{
     font-size: 0.8rem;
     text-decoration: none;
 }
-/* end__breadcrumb */
+/* ---------- end breadcrumb ---------- */
 
-/* web__title */
+
+/* ---------- web title ---------- */
 .container__title{   
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 .title__car{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
-/* end__web__title */
+/* ---------- end web title ---------- */
+
+
+
+
+
+
+
+
+
+/* ---------- SLIDER SWIPERJS --------- */
+/* .slider{
+    margin-top: 1rem
+} */
+  
+  
+.swiper {
+    /* width: 100%;
+    height: 100%; */
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.swiper {
+    /* width: 100%;
+    height: 300px; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+  
+.mySwiper2 {
+    /* 
+    height: 80%;
+    width: 100%; */
+    height: 80%;
+    width: 100%;
+}
+  
+.mySwiper {
+    /* height: 20%; */
+    height: 15%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+  
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+  
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* END SLIDER SWIPERJS */
+
+
+
+
+
+
+
+
 
 /* slider__box */
-.principal__slider{
+/* .principal__slider{
     display: block;
     width: 100%;
 }
@@ -108,11 +210,14 @@ body{
     float: right;
     margin-left: 5px;
 }
-/* end__slider__box */
+ *//* end__slider__box */
+
+
 
 .slider__text{
     font-size: 17px;
-    margin-bottom: 25px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .slider__info{
@@ -120,7 +225,7 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-bottom: 200px;
+    margin-bottom: 15rem;
 }
 
 .info__list{
@@ -182,7 +287,6 @@ body{
 }
 
 .content__bodywork {
-   /*  border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content:end;
@@ -190,7 +294,6 @@ body{
 }
 
 .content__bodywork li{
-    /* border: 1px solid green; */
     list-style: none;
     font-size: 1rem;
 }
@@ -297,11 +400,11 @@ body{
     margin-left: 4.3rem;
 }
 
-/* CONTACT FORM */
+/* ---------- CONTACT FORM ---------- */
 .module__contact{
     border: 1px solid lightgray;
     width: 27rem;
-    height: 43rem;
+    height: 44rem;
     margin-left: 3rem;
     padding: 3.5rem;
     box-shadow: 10px 10px 10px grey;
@@ -364,4 +467,4 @@ body{
 .btn-primary{
     width: 20rem;
 }
-/* END CONTACT FORM */
+/* ---------- END CONTACT FORM ---------- */
