@@ -72,15 +72,15 @@
                 </a>
               </div>
             </div>
-            <!-- Collapsible wrapper -->
+            <!-- End Collapsible wrapper -->
           </div>
-          <!-- Container wrapper -->
+          <!-- End Container wrapper -->
         </nav>
-        <!-- Navbar -->
+        <!-- End Navbar -->
       </div>
     </header>
 
-    <!-- breadcrumb -->
+    <!-- BREADCRUMB -->
     <div class="container container__breadcrumb">
       <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -108,8 +108,9 @@
         </ol>
       </nav>
     </div>
+    <!-- END BREADCRUMB -->
 
-    <!-- web title -->
+    <!-- WEB TITLE -->
     <div class="container container__title">
       <h1>
         <img alt="tesla.png" title="tesla.png" src="assets/img/tesla.png" class="title__img"/>
@@ -118,17 +119,16 @@
         </span>
       </h1>
     </div>
+    <!-- END WEB TITLE -->
 
-    <!-- web page -->
+    <!-- WEB PAGE -->
     <div class="container">
+      <!-- CONTAINER LEFT -->
       <section class="col-8 container__left">
         <div class="left__module">
           <div class="module__principal">
+            <!-- SWIPER SLIDER -->
             <div class="principal__slider">
-
-
-              
-              <!-- Swiper -->
               <div class="slider">
                 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 container">
                   <div class="swiper-wrapper">
@@ -351,48 +351,10 @@
                   </div>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-              <!-- <a class="slider__cover">
-                <img alt="Model 3 Long-Range Dual Motor Performance AWD" title="Model 3 Long-Range Dual Motor Performance AWD" src="assets/img/tesla_model3_00.jpeg" class="float-start cover__img"/>
-              </a>
-              <div class="slider__miniatures">
-                <a href="#" class="miniatures__link">
-                  <img src="assets/img/tesla_model3_02.jpeg" alt="Model 3 Long-Range Dual Motor Performance AWD" class="link__mini"/>
-                </a>
-                <a href="#" class="miniatures__link">
-                  <img src="assets/img/tesla_model3_03.jpeg" alt="Model 3 Long-Range Dual Motor Performance AWD" class="link__mini"/>
-                </a>
-                <a href="#" class="miniatures__link">
-                  <img src="assets/img/tesla_model3_04.jpeg" alt="Model 3 Long-Range Dual Motor Performance AWD" class="link__mini"/>
-                </a>
-                <a href="#" class="miniatures__link">
-                  <img src="assets/img/tesla_model3_05.jpeg" alt="Model 3 Long-Range Dual Motor Performance AWD" class="link__mini"/>
-                </a>
-                <a href="#" class="miniatures__link">
-                  <img src="assets/img/tesla_model3_06.jpeg" alt="Model 3 Long-Range Dual Motor Performance AWD" class="link__mini"/>
-                </a>
-                <div href="#" class="miniatures__group">
-                  <span class="icon icon-camara"></span>35 fotos
-                </div>
-              </div> -->
-
-
-
-
-
-
-
-
-
-
             </div>
+            <!-- END SWIPER SLIDER -->
+
+            <!-- SLIDER TEXT + INFO -->
             <div class="slider__text">
               Berlina mediana o grande. Ficha del TESLA Model 3 con el motor
               0.00 de 513 CV de potencia. Con caja de cambios Automático y 4
@@ -420,88 +382,197 @@
                 Cambio: <span class="list__span">Automático</span>
               </li>
             </ul>
+            <!-- END SLIDER TEXT + INFO -->
           </div>
         </div>
-        <div class="left__module">
+
+        <!-- FICHA TÉCNICA -->
+        <div class="row left__module">
           <a href="" class="module__anchor"></a>
           <h2 class="module__title technical">
             Ficha técnica y medidas del TESLA Model 3 Long-Range Dual Motor
             Performance AWD
           </h2>
-          <ul class="row module__tabs bodywork">
-            <li class="tabs__bodywork col-2">
-              <a href="" class="bodywork__anchor">Carrocería</a>
-            </li>
-            <li class="tabs__motor col-2">
-              <a href="" class="motor__anchor">Motor</a>
-            </li>
-            <li class="tabs__transmission col-2">
-              <a href="" class="transmission__anchor">Transmisión</a>
-            </li>
-            <li class="tabs__performance col-2">
-              <a href="" class="performance__anchor">Prestaciones</a>
-            </li>
-            <li class="tabs__efficiency col-2">
-              <a href="" class="efficiency__anchor">Consumos y emisiones</a>
-            </li>
-            <li class="empty col-2"></li>
-          </ul>
-          <div class="tabs__content bodywork">
-            <ul class="content__bodywork">
-              <li class="bodywork__li bodywork__li--measures">
-                <h3 class="li__measures">Medidas</h3>
-                <img src="assets/img/car_measurements.png" class="li__measures--img"/>
-                <span class="li__length">Largo 4694 mm</span>
-                <span class="li__width">Ancho 1933 mm</span>
-                <span class="li__high">Alto 1443 mm</span>
-              </li>
-              <li class="bodywork__li bodywork__li--bodywork">
-                Carrocería
-                <span class="li__bodywork">Berlina</span>
-              </li>
-              <li class="bodywork__li bodywork__li--batalla">
-                Batalla (mm)
-                <span class="li__batalla">2.875</span>
-              </li>
 
-              <li class="bodywork__li bodywork__li--large">
-                Longitud máx. (mm)
-                <span class="li__large">-</span>
+          <!-- TABS FICHA TÉCNICA -->
+          <div id="nav-tab" role="tabpanel">
+            <ul class="row nav nav-tabs module__tabs bodywork" role="tablist">
+              <li role="presentation" class="active tabs__bodywork col-2">
+                <a href="#carroceria" aria-controls="carroceria" aria-selected="true" data-toggle="tab" role="tab" class="bodywork__anchor">Carrocería</a>
               </li>
-
-              <li class="bodywork__li bodywork__li--doors">
-                Número de puertas
-                <span class="li__doors">4</span>
+              <li role="presentation" class="tabs__motor col-2">
+                <a href="#motor" aria-controls="motor" aria-selected="false" data-toggle="tab" role="tab" class="motor__anchor">Motor</a>
               </li>
-
-              <li class="bodywork__li bodywork__li--seats">
-                Número de plazas
-                <span class="li__seats">5</span>
+              <li role="presentation" class="tabs__transmission col-2">
+                <a href="#transmision" aria-controls="transmision" aria-selected="false" data-toggle="tab" role="tab" class="transmission__anchor">Transmisión</a>
               </li>
-
-              <li class="bodywork__li bodywork__li--trunk">
-                Capacidad del maletero (l)
-                <span class="li__trunk">-</span>
+              <li role="presentation" class="tabs__performance col-2">
+                <a href="#prestaciones" aria-controls="prestaciones" aria-selected="false" data-toggle="tab" role="tab" class="performance__anchor">Prestaciones</a>
               </li>
-
-              <li class="bodywork__li bodywork__li--trunkmax">
-                Capacidad máxima del maletero (l)
-                <span class="li__trunkmax">-</span>
+              <li role="presentation" class="tabs__efficiency col-2">
+                <a href="#consumosyemisiones" aria-controls="consumosyemisiones" aria-selected="false" data-toggle="tab" role="tab" class="efficiency__anchor">Consumos y emisiones</a>
               </li>
-
-              <li class="bodywork__li bodiwork__li--weight">
-                Peso/Masa max. autorizado (kg)
-              <span class="li__weight">2.305</span>
-              </li>
+              <li class="empty col-2"></li>
             </ul>
+            <!-- TABS CONTENTS FICHA TÉCNICA -->
+            <div class="tab-content tabs__content bodywork">
+              <!-- TAB CARROCERIA -->
+              <div role="tabpanel" class="tab-pane fade show active" id="carroceria">
+                <ul class="content__bodywork">
+                  <li class="bodywork__li bodywork__li--measures">
+                    <h3 class="li__measures">Medidas</h3>
+                    <img src="assets/img/car_measurements.png" class="li__measures--img"/>
+                    <span class="li__length">Largo 4694 mm</span>
+                    <span class="li__width">Ancho 1933 mm</span>
+                    <span class="li__high">Alto 1443 mm</span>
+                  </li>
+                  <li class="bodywork__li bodywork__li--bodywork">
+                    Carrocería
+                    <span class="li__bodywork">Berlina</span>
+                  </li>
+                  <li class="bodywork__li bodywork__li--batalla">
+                    Batalla (mm)
+                    <span class="li__batalla">2.875</span>
+                  </li>
+
+                  <li class="bodywork__li bodywork__li--large">
+                    Longitud máx. (mm)
+                    <span class="li__large">-</span>
+                  </li>
+
+                  <li class="bodywork__li bodywork__li--doors">
+                    Número de puertas
+                    <span class="li__doors">4</span>
+                  </li>
+
+                  <li class="bodywork__li bodywork__li--seats">
+                    Número de plazas
+                    <span class="li__seats">5</span>
+                  </li>
+
+                  <li class="bodywork__li bodywork__li--trunk">
+                    Capacidad del maletero (l)
+                    <span class="li__trunk">-</span>
+                  </li>
+
+                  <li class="bodywork__li bodywork__li--trunkmax">
+                    Capacidad máxima del maletero (l)
+                    <span class="li__trunkmax">-</span>
+                  </li>
+
+                  <li class="bodywork__li bodiwork__li--weight">
+                    Peso/Masa max. autorizado (kg)
+                  <span class="li__weight">2.305</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- TAB MOTOR -->
+              <div role="tabpanel" class="tab-pane fade" id="motor">
+                <ul class="content__motor">
+                  <li class="motor__li motor__li--combustible">
+                    Combustible
+                    <span class="li__combustible">Corriente eléctrica</span>
+                  </li>
+                  <li class="motor__li motor__li--cilindros">
+                    Número de cilindros
+                    <span class="li__cilindros">-</span>
+                  </li>
+                  <li class="motor__li motor__li--cilindrada">
+                    Cilindrada (cm3)
+                    <span class="li__cilindrada">0</span>
+                  </li>
+                  <li class="motor__li motor__li--sobrealimentacion">
+                    Sobrealimentación
+                    <span class="li__sobrealimentacion">-</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- TAB TRANSMISION -->
+              <div role="tabpanel" class="tab-pane fade" id="transmision">
+                <ul class="content__transmision">
+                  <li class="transmision__li transmision__li--valvulas">
+                    Válvulas por cilindro
+                    <span class="li__valvulas">-</span>
+                  </li>
+                  <li class="transmision__li transmision__li--transmision">
+                    Tipo de transmisión
+                    <span class="li__transmision">Directo, sin caja de cambios</span>
+                  </li>
+                  <li class="transmision__li transmision__li--traccion">
+                    Tracción
+                    <span class="li__traccion">Tracción total permanente</span>
+                  </li>
+                  <li class="transmision__li transmision__li--marchas">
+                    Número de marchas
+                    <span class="li__marchas">1</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- TAB PRESTACIONES -->
+              <div role="tabpanel" class="tab-pane fade" id="prestaciones">
+                <ul class="content__prestaciones">
+                  <li class="prestaciones__li prestaciones__li--kw">
+                    potencia (KW)
+                    <span class="li__kw">377</span>
+                  </li>
+                  <li class="prestaciones__li prestaciones__li--cv">
+                    Potencia (CV)
+                    <span class="li__cv">513</span>
+                  </li>
+                  <li class="prestaciones__li prestaciones__li--par">
+                    Par (Nm)
+                    <span class="li__par">621</span>
+                  </li>
+                  <li class="prestaciones__li prestaciones__li--velocidadmax">
+                    Velocidad máxima (Km/h)
+                    <span class="li__velocidadmax">250</span>
+                  </li>
+                  <li class="prestaciones__li prestaciones__li--aceleracion">
+                    Aceleración 0-100 km/h (s)
+                    <span class="li__aceleracion">3,70</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- TAB CONSUMOS Y EMISIONES -->
+              <div role="tabpanel" class="tab-pane fade" id="consumosyemisiones">
+                <ul class="content__consumosyemisiones">
+                  <li class="consumosyemisiones__li consumosyemisiones__li--deposito">
+                    Depósito de combustible (l)
+                    <span class="li__deposito">0,00</span>
+                  </li>
+                  <li class="consumosyemisiones__li consumosyemisiones__li--urbano">
+                    Urbano (l/100 km)
+                    <span class="li__urbano">0.0 l/100 km</span>
+                  </li>
+                  <li class="consumosyemisiones__li consumosyemisiones__li--carretera">
+                    Carretera (l/100 km)
+                    <span class="li__carretera">0.0 l/100 km</span>
+                  </li>
+                  <li class="consumosyemisiones__li consumosyemisiones__li--medio">
+                    Medio (l/100 km)
+                    <span class="li__medio">0.0 l/100 km</span>
+                  </li>
+                  <li class="consumosyemisiones__li consumosyemisiones__li--co2">
+                    CO2 (g/km)
+                    <span class="li__co2">-</span>
+                  </li>
+                </ul>
+              </div>
+
+            <!-- END TABS FICHA TÉCNICA -->
           </div>
         </div>
-
-
+        <!-- END FICHA TÉCNICA -->
       </section>
+      <!-- END CONTAINER LEFT -->
 
-      <!-- CONTACT FORM - RIGHT MODULE -->
+      <!-- CONTAINER RIGHT -->
       <section class="col-4 container__right">
+        <!-- CONTACT FORM - RIGHT MODULE -->
         <div class="right__module">
           <a></a>
           <div class="module__contact">
@@ -580,16 +651,29 @@
             </div>
           </div>
         </div>
+        <!-- END CONTACT FORM - RIGHT MODULE -->
       </section>
+      <!-- END CONTAINER RIGHT -->
     </div>
+    <!-- END WEB PAGE -->
 
     
+
+    
+
+
 
    
 
     
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- jQuery 3.5.1 first, then Popper.js 1.16.1, then Bootstrap 4.6.1 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+
+    <!-- Option 1: Bootstrap 5 Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- slider script swiperjs -->
@@ -598,10 +682,12 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <script src="js/swiper-bundle.min.js"></script>
+
     <!-- link script -->
     <script src="js/app.js"></script>
 
-    <script src="js/swiper-bundle.min.js"></script>
+   
 
    
   </body>

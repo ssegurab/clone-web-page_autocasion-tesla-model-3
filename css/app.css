@@ -10,15 +10,15 @@ body{
 
 /* ---------- navbar ---------- */
 .nav-link{
-    color: white;
+    /* color: white; */
     text-decoration: none;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
     background-color: white;
     color:darkred;
     border: white;
-}
+} */
 
 .btn-danger{
     border-radius: inherit;
@@ -200,7 +200,8 @@ body{
     float: right;
     margin-left: 5px;
 }
- *//* end__slider__box */
+*/
+/* end__slider__box */
 
 
 
@@ -227,13 +228,17 @@ body{
     font-weight: bold;
 }
 
+
+/* FICHA TÉCNICA */
 .technical{
     font-size: 1.7rem;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
+
+/* TABS FICHA TÉCNICA */
 .module__tabs{
     width: 100%;
     list-style: none;
@@ -245,18 +250,23 @@ body{
     text-align: center;
 }
 
-.module__tabs li a{
-    text-decoration: none;
+.module__tabs a:focus{
     color: black;
 }
 
-.tabs__bodywork{
+.module__tabs li a{
+    text-decoration: none;
+    /* color: black; */
+}
+
+/* .tabs__bodywork{
     border-left: 1px solid black;
     border-top: 1px solid black;
     border-right: 1px solid black;
-}
+} */
 
-.tabs__motor{
+
+/* .tabs__motor{
     border-bottom: 1px solid black;
 }
 
@@ -274,8 +284,9 @@ body{
 
 .empty{
     border-bottom: 1px solid black;
-}
+} */
 
+/* TAB CONTENT - CARROCERIA */
 .content__bodywork {
     display: flex;
     flex-wrap: wrap;
@@ -390,7 +401,198 @@ body{
     margin-left: 4.3rem;
 }
 
+/* TAB CONTENT - MOTOR */
+.content__motor{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.content__motor li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.content__motor li a{
+    margin: 0;
+    padding: 0;
+}
+
+.motor__li{
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+.li__combustible{
+    padding-left: 3.5rem;
+    font-weight: bold;
+}
+
+.li__cilindros{
+    padding-left: 6rem;
+    font-weight: bold;
+}
+
+.li__cilindrada{
+    padding-left: 6rem;
+    font-weight: bold;
+}
+
+.li__sobrealimentacion{
+    padding-left: 6.8rem;
+    font-weight: bold;
+}
+
+
+/* TAB CONTENT - TRANSMISIÓN */
+.content__transmision{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__transmision li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.content__transmision li a{
+    margin: 0;
+    padding: 0;
+}
+
+.transmision__li{
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+.li__valvulas{
+    padding-left: 4.5rem;
+    font-weight: bold;
+}
+
+.transmision__li--transmision{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.li__transmision{
+    display: flex;
+    width: 50%;
+    padding-left: 3rem;
+    font-weight: bold;
+    
+}
+
+.transmision__li--traccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.li__traccion{
+    padding-left: 2.5rem;
+    font-weight: bold;
+}
+
+.li__marchas{
+    padding-left: 6rem;
+    font-weight: bold;
+}
+
+/* TAB CONTENT - PRESTACIONES */
+.content__prestaciones{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__prestaciones li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.content__prestaciones li a{
+    margin: 0;
+    padding: 0;
+}
+
+.prestaciones__li{
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+.li__kw{
+    padding-left: 11rem;
+    font-weight: bold;
+}
+
+.li__cv{
+    padding-left: 12rem;
+    font-weight: bold;
+}
+
+.li__par{
+    padding-left: 13.3rem;
+    font-weight: bold;
+    
+}
+
+.li__velocidadmax{
+    padding-left: 6.3rem;
+    font-weight: bold;
+}
+
+.li__aceleracion{
+    padding-left: 5rem;
+    font-weight: bold;
+}
+
+/* TAB CONTENT - CONSUMOS Y EMISIONES */
+.content__consumosyemisiones{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__consumosyemisiones li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.content__consumosyemisiones li a{
+    margin: 0;
+    padding: 0;
+}
+
+.consumosyemisiones__li{
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+.li__deposito{
+    padding-left: 5.5rem;
+    font-weight: bold;
+}
+
+.li__urbano{
+    padding-left: 7.3rem;
+    font-weight: bold;
+}
+
+.li__carretera{
+    padding-left: 7rem;
+    font-weight: bold;
+    
+}
+
+.li__medio{
+    padding-left: 8rem;
+    font-weight: bold;
+}
+
+.li__co2{
+    padding-left: 13.7rem;
+    font-weight: bold;
+}
+/* END TABS CONTENTS */
 
 /* ---------- CONTACT FORM ---------- */
 .module__contact{
@@ -464,8 +666,8 @@ body{
 
 
 
-
-//* / X-Small devices (portrait phones, less than 576px)
+/*
+// X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 
 // Small devices (landscape phones, less than 768px)
