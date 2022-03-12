@@ -238,7 +238,7 @@ body{
 }
 
 
-/* TABS FICHA TÉCNICA */
+/* TABS CONTENT FICHA TÉCNICA */
 .module__tabs{
     width: 100%;
     list-style: none;
@@ -423,22 +423,22 @@ body{
 }
 
 .li__combustible{
-    padding-left: 3.5rem;
+    padding-left: 6rem;
     font-weight: bold;
 }
 
 .li__cilindros{
-    padding-left: 6rem;
+    padding-left: 8rem;
     font-weight: bold;
 }
 
 .li__cilindrada{
-    padding-left: 6rem;
+    padding-left: 8.5rem;
     font-weight: bold;
 }
 
 .li__sobrealimentacion{
-    padding-left: 6.8rem;
+    padding-left: 8.7rem;
     font-weight: bold;
 }
 
@@ -465,7 +465,7 @@ body{
 }
 
 .li__valvulas{
-    padding-left: 4.5rem;
+    padding-left: 7rem;
     font-weight: bold;
 }
 
@@ -478,7 +478,7 @@ body{
 .li__transmision{
     display: flex;
     width: 50%;
-    padding-left: 3rem;
+    padding-left: 5.3rem;
     font-weight: bold;
     
 }
@@ -490,12 +490,12 @@ body{
 }
 
 .li__traccion{
-    padding-left: 2.5rem;
+    padding-left: 6rem;
     font-weight: bold;
 }
 
 .li__marchas{
-    padding-left: 6rem;
+    padding-left: 8rem;
     font-weight: bold;
 }
 
@@ -592,7 +592,588 @@ body{
     padding-left: 13.7rem;
     font-weight: bold;
 }
-/* END TABS CONTENTS */
+/* END TABS CONTENTS FICHA TÉCNICA */
+
+
+/* EQUIPAMIENTO */
+.equipamiento{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* TAB CONTENT - MULTIMEDIA Y AUDIO */
+.content__multimedia li{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.content__multimedia li a{
+    margin: 0;
+    padding: 0;
+}
+
+.li__usb{
+    padding-left: 39.7rem;
+    font-weight: bold;
+}
+
+.li__voz{
+    padding-left: 39.1em;
+    font-weight: bold;
+}
+
+.li__pantalla1{
+    padding-left: 38.4rem;
+    font-weight: bold;
+}
+
+.li__wifi{
+    padding-left: 30.2rem;
+    font-weight: bold;
+}
+
+.li__sonido{
+    padding-left: 30.5rem;
+    font-weight: bold;
+}
+
+.li__conectividad{
+    display: block;
+    padding-left: 12.8rem;
+    font-weight: bold;
+}
+
+.multimedia__li--conectividad{
+    display: flex;
+    max-width: 96.75%;
+}
+
+.li__pantalla2{
+    padding-left: 38.2rem;
+    font-weight: bold;
+}
+
+.li__autopilot1{
+    margin-left: 12.2rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__autopilot1--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+/* TAB CONTENT - CONFORT */
+.content__confort li{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.content__confort li a{
+    margin: 0;
+    padding: 0;
+}
+
+.li__direccion{
+    padding-left: 30rem;
+    font-weight: bold;
+}
+
+.li__espejos1{
+    padding-left: 30.4rem;
+    font-weight: bold;
+}
+
+.li__espejos2{
+    padding-left: 30rem;
+    font-weight: bold;
+}
+
+.li__asientos1{
+    padding-left: 19.6rem;
+    font-weight: bold;
+}
+
+.li__asientos2{
+    padding-left: 29.7rem;
+    font-weight: bold;
+}
+
+.li__cierre{
+    padding-left: 37.5rem;
+    font-weight: bold;
+}
+
+.li__climatizador{
+    padding-left: 35.2rem;
+    font-weight: bold;
+}
+
+.li__espejos3{
+    padding-left: 25.1rem;
+    font-weight: bold;
+}
+
+.li__espejos4{
+    padding-left: 26rem;
+    font-weight: bold;
+}
+
+.li__interior1{
+    margin-left: 33.4rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__interior1--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__pedales{
+    padding-left: 36.3rem;
+    font-weight: bold;
+}
+
+.li__acceso{
+    padding-left: 19.6rem;
+    font-weight: bold;
+}
+
+.li__techo{
+    padding-left: 17.2rem;
+    font-weight: bold;
+}
+
+.li__interior2{
+    margin-left: 29.2rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__interior2--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__interior3{
+    margin-left: 26.7rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__interior3--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+/* TAB CONTENT - SEGURIDAD */
+.content__seguridad li{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.content__seguridad li a{
+    margin: 0;
+    padding: 0;
+}
+
+.li__airbag1{
+    padding-left: 34.9rem;
+    font-weight: bold;
+}
+
+.li__airbag2{
+    padding-left: 35.6rem;
+    font-weight: bold;
+}
+
+.li__airbag3{
+    padding-left: 27.7em;
+    font-weight: bold;
+}
+
+.li__airbag4{
+    padding-left: 33.2rem;
+    font-weight: bold;
+}
+
+.li__antibloqueo{
+    padding-left: 33.1rem;
+    font-weight: bold;
+}
+
+.li__estabilidad{
+    padding-left: 35.9rem;
+    font-weight: bold;
+}
+
+.li__faros{
+    padding-left: 36.6rem;
+    font-weight: bold;
+}
+
+.seguridad__li--autopilot2{
+    float: left;
+}
+
+.li__autopilot2{
+    float: left;
+    width: 69.3%;
+}
+
+.li__autopilot2--opcional{
+    margin-left: 5rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__autopilot2--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__camaras{
+    padding-left: 35.7rem;
+    font-weight: bold;
+}
+
+.li__autopilot3{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__autopilot3--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__fullselfdriving{
+    margin-left: 27.5rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__fullselfdriving--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+/* TAB CONTENT - ACABADO INTERIOR Y EXTERIOR */
+.content__acabado li{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.content__acabado li a{
+    margin: 0;
+    padding: 0;
+}
+
+.li__metalizada{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__metalizada{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__multicapa1{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__multicapa1{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__asiento{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__solida{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__solida{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas1{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas1{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas2{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__spoiler{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas3{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas3{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas4{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas4{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas5{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas5{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__decoracion{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__consola{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__multicapa2{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__multicapa2{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__multicapa3{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__multicapa3{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas6{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas6{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas7{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas7{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas8{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas8{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas9{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas9{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas10{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas10{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.li__llantas11{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__llantas11{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+
+
+/* TAB CONTENT - OTROS */
+.content__otros li{
+    list-style: none;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.content__otros li a{
+    margin: 0;
+    padding: 0;
+}
+
+
+.li__paquete{
+    padding-left: 36.2rem;
+    font-weight: bold;
+}
+
+.li__brake{
+    padding-left: 33.3rem;
+    font-weight: bold;
+}
+
+.li__tow{
+    margin-left: 32.6rem;
+    font-weight: bold;
+    color: #468847;
+    border: 1px solid #468847;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.li__tow--precio{
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+
 
 /* ---------- CONTACT FORM ---------- */
 .module__contact{
