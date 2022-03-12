@@ -900,7 +900,7 @@ body{
 }
 
 .li__metalizada{
-    margin-left: 32.6rem;
+    margin-left: 31.1rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -908,13 +908,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__metalizada{
+.li__metalizada--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__multicapa1{
-    margin-left: 32.6rem;
+    margin-left: 31.3rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -922,18 +922,18 @@ body{
     padding: 0.2rem;
 }
 
-.li__multicapa1{
+.li__multicapa1--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__asiento{
-    padding-left: 0.5rem;
+    padding-left: 31.5rem;
     font-weight: bold;
 }
 
 .li__solida{
-    margin-left: 32.6rem;
+    margin-left: 33.3rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -941,13 +941,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__solida{
+.li__solida--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas1{
-    margin-left: 32.6rem;
+    margin-left: 22.8rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -955,23 +955,24 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas1{
+.li__llantas1--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas2{
-    padding-left: 0.5rem;
+    padding-left: 25.6rem;
     font-weight: bold;
 }
 
 .li__spoiler{
-    padding-left: 0.5rem;
+    padding-left: 38.5rem;
     font-weight: bold;
+    
 }
 
 .li__llantas3{
-    margin-left: 32.6rem;
+    margin-left: 24.6rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -979,13 +980,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas3{
+.li__llantas3--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas4{
-    margin-left: 32.6rem;
+    margin-left: 24.6rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -993,13 +994,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas4{
+.li__llantas4--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas5{
-    margin-left: 32.6rem;
+    margin-left: 24.6rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1007,23 +1008,29 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas5{
+.li__llantas5--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__decoracion{
-    padding-left: 0.5rem;
+    padding-left: 31.4rem;
     font-weight: bold;
+}
+
+
+.acabado__li--consola{
+    display: flex;
+    width: 95.8%;
 }
 
 .li__consola{
-    padding-left: 0.5rem;
+    padding-left: 14rem;
     font-weight: bold;
 }
 
 .li__multicapa2{
-    margin-left: 32.6rem;
+    margin-left: 28.5rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1031,13 +1038,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__multicapa2{
+.li__multicapa2--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__multicapa3{
-    margin-left: 32.6rem;
+    margin-left: 24.8rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1045,13 +1052,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__multicapa3{
+.li__multicapa3--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas6{
-    margin-left: 32.6rem;
+    margin-left: 21.6rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1059,13 +1066,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas6{
+.li__llantas6--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas7{
-    margin-left: 32.6rem;
+    margin-left: 22.4rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1073,13 +1080,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas7{
+.li__llantas7--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas8{
-    margin-left: 32.6rem;
+    margin-left: 21.7rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1087,13 +1094,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas8{
+.li__llantas8--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas9{
-    margin-left: 32.6rem;
+    margin-left: 22.4rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1101,13 +1108,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas9{
+.li__llantas9--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas10{
-    margin-left: 32.6rem;
+    margin-left: 21.7rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1115,13 +1122,13 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas10{
+.li__llantas10--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
 
 .li__llantas11{
-    margin-left: 32.6rem;
+    margin-left: 22.4rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -1129,7 +1136,7 @@ body{
     padding: 0.2rem;
 }
 
-.li__llantas11{
+.li__llantas11--precio{
     padding-left: 0.5rem;
     font-weight: bold;
 }
@@ -1160,7 +1167,7 @@ body{
 }
 
 .li__tow{
-    margin-left: 32.6rem;
+    margin-left: 34em;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
