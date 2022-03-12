@@ -204,13 +204,15 @@ body{
 /* end__slider__box */
 
 
-
+/* SLIDER TEXT */
 .slider__text{
     font-size: 17px;
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
+
+/* SLIDER INFO */
 .slider__info{
     display: block;
     list-style: none;
@@ -233,7 +235,7 @@ body{
 .technical{
     font-size: 1.7rem;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: -2rem;
     margin-bottom: 1rem;
 }
 
@@ -599,7 +601,7 @@ body{
 .equipamiento{
     font-size: 1.7rem;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
 }
 
@@ -1179,6 +1181,102 @@ body{
     padding-left: 0.5rem;
     font-weight: bold;
 }
+/* END TABS CONTENTS EQUIPAMIENTO */
+
+/* FICHAS TÉCNICAS DE COCHES */
+.module__tecnicas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.tecnicas__fichas{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+/* BUSCADOR FICHAS TÉCNICAS COCHES */
+.module__buscador{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.buscador__marca{
+
+}
+
+.marca__button{
+    width: 12rem;
+}
+
+.dropdown-menu{
+    overflow: scroll;
+    width: 12rem;
+    height: 13.5rem;
+}
+
+.buscador__modelo{
+
+}
+
+.modelo__button{
+    width: 12rem;
+}
+
+.buscador__year{
+
+}
+
+.year__button{
+    width: 12rem;
+}
+
+.buscar__button{
+    width: 12rem;
+    height: 2.4rem;
+    border-radius: 0.2em;
+}
+
+.buscar__button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+/* ANUNCIOS COCHES SEGUNDA MANO */
+.module__usados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.usados__coches{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
 
 
 
