@@ -1191,11 +1191,11 @@ body{
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .tecnicas__fichas{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 1rem;
 }
@@ -1221,6 +1221,11 @@ body{
     height: 13.5rem;
 }
 
+.dropdown-menu li a:hover{
+    background-color: #0269AF;
+    color: white;
+}
+
 .buscador__modelo{
 
 }
@@ -1233,8 +1238,15 @@ body{
 
 }
 
-.year__button{
+.btn-secondary{
     width: 12rem;
+    background-color:white;
+    color: black;
+}
+
+.btn-secondary:hover{
+    background-color:white;
+    color: black;
 }
 
 .buscar__button{
@@ -1262,19 +1274,203 @@ body{
     margin-top: 7rem;
     margin-bottom: 2rem;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
-.usados__coches{
-    font-size: 1.5rem;
+.usados__subtitulo{
+    font-size: 1.2rem;
     font-weight: 400;
     margin-top: 1rem;
 }
 
+.module__usados--coches{
+    display: flex;
+    justify-content: space-around;
+}
+
+.usados__coches{
+    width: 23%;
+}
+
+.coches__usados--enlace{
+    color: #0269ae;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.usados__img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.coches__usados--year{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 1rem;
+}
+
+.coches__usados--year li{
+    font-weight: 400;
+}
+
+.coches__usados--year li span{
+    font-weight: bold;
+}
+
+.coches__usados--precio{
+    margin-top: 2rem;
+    color: black;
+    font-size: 1.7rem;
+}
+
+.informacion__button{
+    width: 12rem;
+    height: 2.4rem;
+    color: #f44336;
+    font-weight: bold;
+    border-radius: 0.2em;
+    border-color: #f44336;
+}
+
+.informacion__button:hover{
+    color: black;
+    border-color: black;
+}
+
+.usados__ofertas{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.usados__ofertas a{
+    color: #0269ae;
+    text-decoration: none;
+}
+
+.usados__ofertas a:hover{
+    text-decoration: underline;
+}
+/* END ANUNCIOS COCHES SEGUNDA MANO */
+
+/* ANUNCIOS COCHES NUEVOS */
+.module__nuevos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+/* .module__nuevos::after{
+    display: block;
+    margin: 2rem auto auto auto;
+    content: " ";
+    width: 20rem;
+    border-bottom: 1px solid black;
+} */
+
+.nuevos__subtitulo{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.module__nuevos--coches{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nuevos__coches{
+    width: 23%;
+}
+
+.coches__nuevos--enlace{
+    color: #0269ae;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nuevos__img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.coches__nuevos{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 1rem;
+}
+
+.coches__nuevos li{
+    font-weight: 400;
+}
+
+.coches__nuevos li span{
+    font-weight: bold;
+}
+
+.coches__nuevos--precio{
+    margin-top: 2rem;
+    color: black;
+    font-size: 1.7rem;
+}
 
 
+.nuevos__ofertas{
+    text-align: center;
+    margin-top: 2rem;
+}
 
+.nuevos__ofertas a{
+    color: #0269ae;
+    text-decoration: none;
+}
 
+.nuevos__ofertas a:hover{
+    text-decoration: underline;
+}
+/* END ANUNCIOS COCHES SEGUNDA MANO */
+
+/* NOTICIAS, PRUEBAS Y NOVEDADES */
+.module__novedades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.module__novedades::after{
+    display: block;
+    content: " ";
+    width: 15rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.novedades__ver{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.novedades__ver a{
+    color: #0269ae;
+    text-decoration: none;
+}
+
+.novedades__ver a:hover{
+    text-decoration: underline;
+}
+
+/* END NOTICIAS, PRUEBAS Y NOVEDADES */
 
 
 
