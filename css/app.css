@@ -1649,6 +1649,146 @@ body{
         margin-left: 2.8rem;
     }
 
+    /* FICHA TÉCNICA CONTENT TAB MOTOR */
+    .motor__li--combustible{
+        width: 100%;
+    }
+
+    .li__combustible{
+        margin-left: 0;
+    }
+
+    .motor__li--cilindros{
+        width: 100%;
+    }
+
+    .li__cilindros{
+        margin-left: -1rem;
+    }
+
+    .motor__li--cilindrada{
+        width: 100%;
+    }
+
+    .li__cilindrada{
+        margin-left: 0.3rem;
+    }
+
+    .motor__li--sobrealimentacion{
+        width: 100%;
+    }
+
+    .li__sobrealimentacion{
+        margin-left: -0.9rem;
+    }
+
+    /* FICHA TÉCNICA CONTENT TAB TRANSMISIÓN */
+    .transmision__li--valvulas{
+        width: 100%;
+    }
+
+    .li__valvulas{
+        margin-left: 0.7rem;
+    }
+
+    .transmision__li--transmision{
+        width: 100%;
+    }
+
+    .li__transmision{
+        margin-left: -1rem;
+        width: 60%;
+    }
+
+    .transmision__li--traccion{
+        width: 100%;
+    }
+
+    .li__traccion{
+        margin-left: -1.6rem;
+    }
+
+    .transmision__li--marchas{
+        width: 100%;
+    }
+
+    .li__marchas{
+        margin-left: -0.7rem;
+    }
+
+    /* FICHA TÉCNICA CONTENT TAB PRESTACIONES */
+    .prestaciones__li--kw{
+        width: 100%;
+    }
+
+    .li__kw{
+        margin-left: 1.3rem;
+    }
+
+    .prestaciones__li--cv{
+        width: 100%;
+    }
+
+    .li__cv{
+        margin-left: 0.6rem;
+    }
+
+    .prestaciones__li--par{
+        width: 100%;
+    }
+
+    .li__par{
+        margin-left: 1.3rem
+    }
+
+    .prestaciones__li--velocidadmax{
+        width: 100%;
+    }
+
+    .li__velocidadmax{
+        margin-left: 0.4rem;
+    }
+
+    .prestaciones__li--aceleracion{
+        width: 100%;
+    }
+
+    .li__aceleracion{
+        margin-left: 1rem;
+    }
+
+    /* FICHA TÉCNICA CONTENT TAB CONSUMOS Y EMISIONES */
+    .consumosyemisiones__li--deposito{
+        width: 100%;
+    }
+    .li__deposito{
+        margin-left: -1.4rem;
+    }
+    .consumosyemisiones__li--urbano{
+        width: 100%;
+    }
+    .li__urbano{
+        margin-left: -0.9rem;
+    }
+    .consumosyemisiones__li--carretera{
+        width: 100%;
+    }
+    .li__carretera{
+        margin-left: -1.5rem;
+    }
+    .consumosyemisiones__li--medio{
+        width: 100%;
+    }
+    .li__medio{
+        margin-left: -1rem;
+    }
+    .consumosyemisiones__li--co2{
+        width: 100%;
+    }
+    .li__co2{
+        margin-left: -1.3rem;
+    }
+
 
     /* EQUIPAMIENTO CONTENT TAB MULTIMEDIA */
     .li__usb{
@@ -1690,6 +1830,189 @@ body{
     .li__autopilot1{
         margin-left: 3.3rem;
     }
+
+    /* EQUIPAMIENTO CONTENT TAB CONFORT */
+    .li__direccion{
+        margin-left: -28rem;
+    }
+    
+    .li__espejos1{
+        margin-left: -28rem;
+    }
+    
+    .li__espejos2{
+        margin-left: -27.9rem;
+    }
+    
+    .li__asientos1{
+        margin-left: -7.5rem;
+    }
+    
+    .li__asientos2{
+        margin-left: -28rem;
+    }
+    
+    .li__cierre{
+        margin-left: -28rem;
+    }
+    
+    .li__climatizador{
+        margin-left: -28rem;
+    }
+    
+    .li__espejos3{
+        margin-left: -6.5rem;
+    }
+    
+    .li__espejos4{
+        margin-left: -7.4rem;
+    }
+    
+    .li__interior1{
+        margin-left: 5.4rem;
+    }
+    
+    .li__pedales{
+        margin-left: -28rem;
+    }
+    
+    .li__acceso{
+        margin-left: -7.1rem;
+    }
+    
+    .li__techo{
+        margin-left: -9.7rem;
+    }
+    
+    .li__interior2{
+        margin-left: 1.2rem;
+    }
+    
+    .li__interior3{
+        margin-left: 12.3rem;
+    }
+
+    /* EQUIPAMIENTO CONTENT TAB SEGURIDAD */
+    .li__airbag1{
+        margin-left: -28rem;
+    }
+
+    .li__airbag2{
+        margin-left: -28rem;
+    }
+
+    .li__airbag3{
+        margin-left: -9.2rem;
+    }
+
+    .li__airbag4{
+        margin-left: -27.9rem;
+    }
+
+    .li__antibloqueo{
+        margin-left: -27.9rem;
+    }
+
+    .li__estabilidad{
+        margin-left: -27.9rem;
+    }
+
+    .li__faros{
+        margin-left: -27.8rem;
+    }
+
+    .li__autopilot2--opcional{
+        margin-left: 12.2rem;
+    }
+
+    .li__camaras{
+        margin-left: -27.7rem;
+    }
+
+    .li__autopilot3{
+        margin-left: 5rem;
+    }
+
+    .li__fullselfdriving{
+        margin-left: 12.2rem;
+    }
+
+    /* EQUIPAMIENTO CONTENT TAB ACABADO INTERIOR Y EXTERIOR */
+    .li__metalizada{
+        margin-left: 3.5rem;
+    }
+    .li__multicapa1{
+        margin-left: 3.65rem;
+    }
+    .li__asiento{
+        margin-left: -27.7rem;
+    }
+    .li__solida{
+        margin-left: 5.75rem;
+    }
+    .li__llantas1{
+        margin-left: 12.5rem;
+    }
+    .li__llantas2{
+        margin-left: -7rem;
+    }
+    .li__spoiler{
+        margin-left: -27.7rem;
+    }
+    .li__llantas3{
+        margin-left: 12.3rem;
+    }
+    .li__llantas4{
+    margin-left: 12.3rem;
+    }
+    .li__llantas5{
+        margin-left: 12.3rem;
+    }
+    .li__decoracion{
+        margin-left: -27.4rem;
+    }
+    .acabado__li--consola{
+        width: 94.5%;
+    }
+    .li__consola{
+        margin-left: -15rem;
+    }
+    .li__multicapa2{
+        margin-left: 1.15rem;
+    }
+    .li__multicapa3{
+        margin-left: 12.3rem;
+    }
+    .li__llantas6{
+        margin-left: 12.3rem;
+    }
+    .li__llantas7{
+        margin-left: 12.3rem;
+    }
+    .li__llantas8{
+        margin-left: 12.3rem;
+    }
+    .li__llantas9{
+        margin-left: 12.3rem;
+    }
+    .li__llantas10{
+        margin-left: 12.3rem;
+    }
+    .li__llantas11{
+        margin-left: 12.3rem;
+    }
+
+    /* EQUIPAMIENTO CONTENT TAB ACABADO INTERIOR Y EXTERIOR */
+    .li__paquete{
+        margin-left: -28rem;
+    }
+    .li__brake{
+        margin-left: -28rem;
+    }
+    .li__tow{
+        margin-left: 6rem;
+    }
+
 
     /* MÓDULO FICHAS TÉCNICAS COCHES */
     .module__buscador{
