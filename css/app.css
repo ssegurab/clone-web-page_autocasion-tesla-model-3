@@ -1555,6 +1555,10 @@ body{
         width: 100%;
     }
     
+    .module__title{
+        font-size: 1.55rem;
+    }
+
     .module__tabs, .content__bodywork, .content__motor, .content__transmision, .content__prestaciones, .content__consumosyemisiones{
         flex-direction: column;
     }
@@ -1564,43 +1568,43 @@ body{
     }
 
     .li__usb{
-        padding-left: 20rem;
+        padding-left:11rem;
     }
 
     .li__voz{
-        padding-left: 19.5rem;
+        padding-left: 10.5em;
     }
 
     .li__pantalla1{
-        padding-left: 18.8rem;
+        padding-left: 9.8rem;
     }
 
     .li__wifi{
-        padding-left: 10.7rem;
+        padding-left: 1.7rem;
     }
 
     .li__sonido{
-        padding-left: 11rem;
+        padding-left: 2rem;
     }
 
     .multimedia__li--conectividad{
-        width: 92.7%;
+        width: 92%;
     }
 
     .li__conectividad{
-        padding-left: 7rem;
+        padding-left: 1rem;
     }
 
     .li__pantalla2{
-        padding-left: 18.9rem;
+        padding-left: 9.8rem;
     }
 
     .multimedia__li--autopilot1{
-        width: 80%;
+        width: 92%;
     }
 
     .li__autopilot1{
-        margin-left: 30rem;
+        margin-left: 3.3rem;
     }
 
     .container__right{
