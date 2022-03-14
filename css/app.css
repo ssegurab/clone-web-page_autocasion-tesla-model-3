@@ -1568,11 +1568,91 @@ body{
     }
 
     /* FICHA TÉCNICA CONTENT TAB CARROCERÍA */
+    /* .bodywork__li{
+        width: 100%;
+    } */
+
+    .li__length{
+        right: 0;
+        top: 0.5rem;
+    }
+
+    .li__width{
+        margin-left: 8.5rem;
+        margin-top: -1rem;
+    }
+
+    .bodywork__li--bodywork{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .li__bodywork{
+        margin-left: 12rem;
+    }
+
+    .bodiwork__li--weight{
+        width: 100%;
+        top: -16rem;
+    }
+
+    .li__weight{
+        margin-left: 2.9rem;
+    }
+
+
+    .bodywork__li--batalla{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .li__batalla{
+        margin-left: 11.8rem;
+    }
+
+    .bodywork__li--large{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .li__large{
+        margin-left: 9.5rem;
+    }
+
+    .bodywork__li--doors{
+        width: 100%;
+    }
+
+    .li__doors{
+        margin-left: 9.6rem;
+    }
+
+
+    .bodywork__li--seats{
+        width: 100%;
+    }
+
+    .li__seats{
+        margin-left: 10.3rem;
+    }
+
+    .bodywork__li--trunk{
+        width: 100%;
+    }
+
+    .bodywork__li--trunkmax{
+        width: 100%;
+    }
+
+    .li__trunkmax{
+        margin-left: 2.8rem;
+    }
 
 
     /* EQUIPAMIENTO CONTENT TAB MULTIMEDIA */
     .li__usb{
-        padding-left:11rem;
+        padding-left: 11rem;
     }
 
     .li__voz{
@@ -1611,7 +1691,7 @@ body{
         margin-left: 3.3rem;
     }
 
-    /* MÓDULO FICHAS TÉCNICAS */
+    /* MÓDULO FICHAS TÉCNICAS COCHES */
     .module__buscador{
         display: block;        
     }
