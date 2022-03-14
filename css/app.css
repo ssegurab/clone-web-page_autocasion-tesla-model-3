@@ -51,6 +51,7 @@ body{
 
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* ---------- breadcrumb ---------- */
@@ -75,13 +76,6 @@ body{
     font-size: 2rem;
 }
 /* ---------- end web title ---------- */
-
-
-
-
-
-
-
 
 
 /* ---------- SLIDER SWIPERJS --------- */  
@@ -160,13 +154,7 @@ body{
 
 
 
-
-
-
-
-
-
-/* slider__box */
+/* slider box manual */
 /* .principal__slider{
     display: block;
     width: 100%;
@@ -201,7 +189,7 @@ body{
     margin-left: 5px;
 }
 */
-/* end__slider__box */
+/* end slider box manual */
 
 
 /* SLIDER TEXT */
@@ -261,32 +249,6 @@ body{
     /* color: black; */
 }
 
-/* .tabs__bodywork{
-    border-left: 1px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-} */
-
-
-/* .tabs__motor{
-    border-bottom: 1px solid black;
-}
-
-.tabs__transmission{
-    border-bottom: 1px solid black;
-}
-
-.tabs__performance{
-    border-bottom: 1px solid black;
-}
-
-.tabs__efficiency{
-    border-bottom: 1px solid black;
-}
-
-.empty{
-    border-bottom: 1px solid black;
-} */
 
 /* TAB CONTENT - CARROCERIA */
 .content__bodywork {
@@ -403,6 +365,7 @@ body{
     margin-left: 4.3rem;
 }
 
+
 /* TAB CONTENT - MOTOR */
 .content__motor{
     display: flex;
@@ -501,6 +464,7 @@ body{
     font-weight: bold;
 }
 
+
 /* TAB CONTENT - PRESTACIONES */
 .content__prestaciones{
     display: flex;
@@ -547,6 +511,7 @@ body{
     padding-left: 5rem;
     font-weight: bold;
 }
+
 
 /* TAB CONTENT - CONSUMOS Y EMISIONES */
 .content__consumosyemisiones{
@@ -604,6 +569,7 @@ body{
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
+
 
 /* TAB CONTENT - MULTIMEDIA Y AUDIO */
 .content__multimedia li{
@@ -671,6 +637,7 @@ body{
     padding-left: 0.5rem;
     font-weight: bold;
 }
+
 
 /* TAB CONTENT - CONFORT */
 .content__confort li{
@@ -1263,9 +1230,6 @@ body{
 
 
 
-
-
-
 /* ANUNCIOS COCHES SEGUNDA MANO */
 .module__usados{
     display: flex;
@@ -1474,8 +1438,6 @@ body{
 
 
 
-
-
 /* ---------- CONTACT FORM ---------- */
 .module__contact{
     border: 1px solid lightgray;
@@ -1567,20 +1529,81 @@ body{
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width */
 
-@media (max-width: 1399.98px) {
+@media screen and (max-width: 1399.98px) {
     
 
- }
+}
 
 
+@media screen and (max-width: 1199.98px) {
+
+}
 
 
-@media (max-width:575.98px){
-    .mySwiper2{
+@media screen and (max-width: 991.98px) {
+
+}
+
+
+@media screen and (max-width: 767.98px) {
+
+}
+
+
+@media screen and (max-width:575.98px){
+    .container__left{
         width: 100%;
     }
     
-    .swiper{
-        width: 100%;
+    .module__tabs, .content__bodywork, .content__motor, .content__transmision, .content__prestaciones, .content__consumosyemisiones{
+        flex-direction: column;
     }
+
+    .multimedia__li{
+        margin-bottom: -2rem;
+    }
+
+    .li__usb{
+        padding-left: 20rem;
+    }
+
+    .li__voz{
+        padding-left: 19.5rem;
+    }
+
+    .li__pantalla1{
+        padding-left: 18.8rem;
+    }
+
+    .li__wifi{
+        padding-left: 10.7rem;
+    }
+
+    .li__sonido{
+        padding-left: 11rem;
+    }
+
+    .multimedia__li--conectividad{
+        width: 92.7%;
+    }
+
+    .li__conectividad{
+        padding-left: 7rem;
+    }
+
+    .li__pantalla2{
+        padding-left: 18.9rem;
+    }
+
+    .multimedia__li--autopilot1{
+        width: 80%;
+    }
+
+    .li__autopilot1{
+        margin-left: 30rem;
+    }
+
+    .container__right{
+        margin: 0 auto;
+    } 
 }
