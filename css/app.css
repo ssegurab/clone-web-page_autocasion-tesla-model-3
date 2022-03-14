@@ -1563,10 +1563,14 @@ body{
         flex-direction: column;
     }
 
-    .multimedia__li{
+    .bodywork__li, .motor__li, .transmision__li, .prestaciones__li, .consumosyemisiones__li, .multimedia__li, .confort__li, .seguridad__li, .acabado__li, .otros__li{
         margin-bottom: -2rem;
     }
 
+    /* FICHA TÉCNICA CONTENT TAB CARROCERÍA */
+
+
+    /* EQUIPAMIENTO CONTENT TAB MULTIMEDIA */
     .li__usb{
         padding-left:11rem;
     }
@@ -1607,7 +1611,71 @@ body{
         margin-left: 3.3rem;
     }
 
-    .container__right{
+    /* MÓDULO FICHAS TÉCNICAS */
+    .module__buscador{
+        display: block;        
+    }
+
+    .buscador__marca .btn{
+        width: 100%;
+    }
+
+    .buscador__modelo .btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .buscador__year .btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .buscador__buscar .btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* ANUNCIOS COCHES USADOS */
+    .usados__columna--cuatro{
+        display: none;
+    }
+
+    .coches__usados--year li{
+        font-size: 0.79rem;
+        margin-bottom: 1rem;
+    }
+
+    .coches__usados--precio{
+        font-size: 1.4rem;
+    }
+
+    /* ANUNCIOS COCHES NUEVOS */
+    .nuevos__coches--empty{
+        display: none;
+    }
+
+    .coches__nuevos li{
+        font-size: 0.79rem;
+        margin-bottom: 1rem;
+    }
+
+    .coches__nuevos--precio{
+        font-size: 1.4rem;
+    }
+
+    .informacion__button{
+        width: 125%;
+        height: 5rem;
+    }
+
+    /* CONTACT FORM */
+    .module__contact{
         margin: 0 auto;
-    } 
+        width: 80%;
+        height: 90%;
+    }
+    
+    .module__contact .btn{
+        width: 100%;
+    }
 }
