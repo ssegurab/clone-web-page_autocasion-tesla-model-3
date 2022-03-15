@@ -32,6 +32,15 @@ body{
     border-color: transparent;
 }
 
+.vende__coche{
+    text-decoration: none;
+    color: white;
+}
+
+.vende__coche:hover{
+    color: darkred;
+}
+
 .favorites__icon{
     color: #757575;
     margin-left: 0.5rem;
@@ -616,16 +625,16 @@ body{
 
 .multimedia__li--conectividad{
     display: flex;
-    max-width: 96.75%;
+    max-width: 94%;
 }
 
 .li__pantalla2{
-    padding-left: 38.2rem;
+    padding-left: 38.3rem;
     font-weight: bold;
 }
 
 .li__autopilot1{
-    margin-left: 12.2rem;
+    margin-left: 12.3rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -802,15 +811,16 @@ body{
 
 .seguridad__li--autopilot2{
     float: left;
+    width: 99%;
 }
 
 .li__autopilot2{
     float: left;
-    width: 69.3%;
+    width: 64%;
 }
 
 .li__autopilot2--opcional{
-    margin-left: 5rem;
+    margin-left: 7rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -829,7 +839,7 @@ body{
 }
 
 .li__autopilot3{
-    margin-left: 32.6rem;
+    margin-left: 32.7rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -843,7 +853,7 @@ body{
 }
 
 .li__fullselfdriving{
-    margin-left: 27.5rem;
+    margin-left: 27.6rem;
     font-weight: bold;
     color: #468847;
     border: 1px solid #468847;
@@ -990,7 +1000,7 @@ body{
 
 .acabado__li--consola{
     display: flex;
-    width: 95.8%;
+    width: 93%;
 }
 
 .li__consola{
@@ -1182,13 +1192,13 @@ body{
     width: 12rem;
 }
 
-.dropdown-menu{
+.dropdown__menu--tecnicas{
     overflow: scroll;
     width: 12rem;
     height: 13.5rem;
 }
 
-.dropdown-menu li a:hover{
+.dropdown__menu--tecnicas li a:hover{
     background-color: #0269AF;
     color: white;
 }
@@ -1812,7 +1822,7 @@ body{
     }
 
     .multimedia__li--conectividad{
-        width: 92%;
+        width: 90%;
     }
 
     .li__conectividad{
@@ -2070,6 +2080,7 @@ body{
         width: 125%;
         height: 5rem;
     }
+    
 
     /* CONTACT FORM */
     .module__contact{
